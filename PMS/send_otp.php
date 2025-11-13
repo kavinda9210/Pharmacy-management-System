@@ -18,7 +18,7 @@ function sendOTP($email, $otp) {
         $mail->Port       = 587;
 
         // Recipients
-        $mail->setFrom('', 'Dinitha Nipunaka');
+        $mail->setFrom('', '');
         $mail->addAddress($email);
 
         // Content
